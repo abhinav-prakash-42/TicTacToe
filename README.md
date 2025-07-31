@@ -1,51 +1,51 @@
-# Tic-Tac-Toe Console Game (Java)
+# 🎮 Java Tic-Tac-Toe Game
 
-This is a simple two-player Tic-Tac-Toe game implemented in Java using the console for input/output. The game logic is object-oriented and includes classes for the game board and players.
+A simple 2-player **Tic-Tac-Toe** game implemented in **Java**, where players take turns to place their marks (`X` or `O`) on a 3x3 grid. This project is ideal for learning basic Object-Oriented Programming (OOP) concepts like **classes**, **objects**, **encapsulation**, and **static methods**.
 
-## 🧩 Features
+---
 
-- 2-player game (Player X and Player O)
-- Input validation (prevents overwriting occupied cells or entering invalid coordinates)
-- Checks for:
-  - Row win
-  - Column win
-  - Diagonal win
-  - Draw
-- Board is displayed after every move
+## 📌 Features
 
-## 🚀 How to Run
+- ✅ Two human players
+- ✅ Console-based gameplay
+- ✅ Input validation for row/column
+- ✅ Win detection (row, column, diagonal)
+- ✅ Draw detection
+- 🖼️ (Optional) GUI version with Swing
 
-1. **Clone or download this project.**
+---
 
-2. **Compile the program** using:
+## 🧱 Project Structure
+
+TicTacToe/
+│
+├── LaunchGame.java # Main class to start the game
+├── TicTacToe.java # Game logic and board control
+└── HumanPlayer.java # Player logic and input
+
+yaml
+Copy
+Edit
+
+---
+
+## 🛠️ How to Run
+
+### ▶️ Console Version
+
+1. **Compile the code**:
+
    ```bash
    javac LaunchGame.java
-Run the game using:
+Run the program:
 
 bash
 Copy
 Edit
 java LaunchGame
-🛠️ Project Structure
-bash
-Copy
-Edit
-LaunchGame.java        # Main class that drives the game
-TicTacToe.java         # Handles the board, rules, and win/draw logic
-HumanPlayer.java       # Handles player move input and validation
-🎮 How to Play
-You'll be prompted to enter row and column values (0-based index, i.e., from 0 to 2).
+Follow prompts to play by entering row and column numbers (0 to 2).
 
-Players take turns placing their marks (X or O) on the board.
-
-The first player to align three marks in a row, column, or diagonal wins.
-
-If all 9 cells are filled without a winner, the game ends in a draw.
-
-📷 Sample Output
-markdown
-Copy
-Edit
+📷 Sample Gameplay
 -------------
 |   |   |   |
 -------------
@@ -55,8 +55,7 @@ Edit
 -------------
 Bob turn
 Enter the row and col
-0
-0
+0 0
 -------------
 | X |   |   |
 -------------
@@ -64,26 +63,50 @@ Enter the row and col
 -------------
 |   |   |   |
 -------------
-...
-Bob has won!
-✅ Future Enhancements
-Add a Computer vs Human mode (AI)
+🧠 Concepts Covered
+Object-Oriented Programming
 
-Add GUI using Java Swing
+Static vs instance methods
 
-Add a scoreboard
+2D arrays and game boards
 
-📚 Concepts Used
-Object-Oriented Programming (Classes, Objects)
+Game loop and condition checking
 
-Static and Instance methods
+Input validation with loops
 
-2D Arrays
+🌟 GUI Version (Swing) [Optional]
+You can extend this project to use Java Swing for a graphical version.
 
-Conditionals and Loops
+Features include:
 
-Scanner for user input
+Clickable grid buttons
+
+Turn indicators
+
+Win/draw popups
+
+Restart option
+
+Want the GUI code? Let us know =
+
+📌 To-Do (for learning enhancement)
+ Add GUI using Swing
+
+ Add AI (Minimax algorithm)
+
+ Highlight winning line
+
+ Add score tracking
+
+🤝 Contribution
+Feel free to fork and enhance the game with GUI, better input handling, or AI. PRs are welcome!
+
+📃 License
+This project is licensed under the MIT License.
 
 👨‍💻 Author
 Abhinav Prakash
-Built as part of Java OOPs learning project
+
+LinkedIn
+
+GitHub
